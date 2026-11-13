@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "livesub"
+version = "0.1.0"
+description = "Subdomain enumeration and live HTTP host reporting for authorized recon"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["security", "recon", "subdomains", "bug-bounty", "pentesting"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Security",
+]
+dependencies = []
+
+[project.scripts]
+livesub = "livesub.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
