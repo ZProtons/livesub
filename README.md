@@ -1,5 +1,8 @@
 # livesub
 
+<img width="570" height="568" alt="Screenshot_20261113_132819" src="https://github.com/user-attachments/assets/5113ce9e-38e3-4e66-b57f-d58054afdd0b" />
+
+
 `livesub` is a Python command-line tool that runs ProjectDiscovery `subfinder`, probes discovered names with ProjectDiscovery `httpx`, and writes grouped text and JSON reports. It is intended for authorized pentesting and bug bounty work.
 
 ## Requirements
